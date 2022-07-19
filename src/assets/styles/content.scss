@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .bg {
+        position: relative;
+        width: 1498px;
+        height: 1080px;
+        background: url('../assets/img/bg.jpg') no-repeat;
+        background-size: 100%;
+        box-shadow: 0px 0px 10px 0px 
+        rgba(0, 0, 0, 0.19);
+
+        .title {
+            display: flex;
+            position: absolute;
+            width: 1337px;
+            height: 529px;
+            flex-direction: column;
+            left: 5%;
+            top: 8%;
+
+            .subject {
+                color: #495561;
+                font-size: 38px;
+                word-wrap: break-word;
+            }
+
+            .answeringArea {
+                display: flex;
+                margin-top: 15px;
+
+                .prompt {
+                    color: #495561;
+                    font-size: 38px;
+                }
+
+                textarea {
+                    width: 1230px;
+                    height: 454px;
+                    padding-top: 5px;
+                    padding-left: 10px;
+                    border: solid 1px #dff1e4;
+                    color: #495561;
+                    font-size: 38px;
+                    background-color: #ffffff;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        .btn {
+            display: flex;
+            position: absolute;
+            top: 91%;
+            left: 67%;
+
+            .questionNumber {
+                margin-right: 10px;
+                color: #ffffff;
+                font-size: 30px;
+                line-height: 60px;
+                cursor: default;
+            }
+
+            .lastQuestion,.nextQuestion{
+                width: 158px;
+                height: 66px;
+                margin: 0px 8px;
+                border: none;
+                color: #1ac36e;
+                font-size: 30px;
+                font-weight: normal;
+                font-stretch: normal;
+                line-height: 32px;
+                letter-spacing: 0px;
+                background-color: #ffffff;
+                border-radius: 15px;
+            }
+        }
+    }
+}

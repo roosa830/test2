@@ -1,0 +1,199 @@
+.test-number {
+    position: relative;
+    height: 200px;
+    width: 377px;
+    left: 6%;
+    top: 3%;
+
+    .switch {
+        display: flex;
+        width: 377px;
+        height: 58px;
+
+        .music {
+            width: 188px;
+            height: 58px;
+            border: 2px solid #1ac36e;
+            color: #fff;
+            font-size: 23px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 58px;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+            background-color: #1ac36e;
+        }
+        
+        .art {
+            width: 188px;
+            height: 58px;
+            border: 2px solid #1ac36e;
+            color: #1ac36e;
+            font-size: 23px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 54px;
+            background-color: white;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+    }
+
+    .first-question {
+        position: absolute;
+        width: 377px;
+        height: 273.5px;
+        margin-top: 18px;
+        border: solid 1px #dff1e4;
+        border-radius: 10px;
+        flex-direction: column;
+        background-color: #fff;
+        overflow: auto;
+        
+
+        .first-number-text {
+            margin: 3% 4%;
+            color: #495561;
+            font-size: 24px;
+            cursor: default;
+        }
+
+        .first-number-grade {
+            position: absolute;
+            color: #495561;
+            font-size: 24px;
+            left: 53%;
+            top: 47px;
+            cursor: default;
+        }
+
+        .first-list {
+            float: left;
+            margin-left: 27px;
+            margin-bottom: 10px;
+
+            .number-figures{
+                float: left; 
+                width: 75px;
+                height: 54px;
+                margin-bottom: 5px;
+                margin-right: 6px;
+                border: 5px solid#dff1e4;
+                color: #1ac36e;
+                font-size: 30px;
+                line-height: 45px;
+                text-align: center;
+                background-color: #dff1e4;
+                cursor: default;
+            }
+            
+            .checked {
+                border: 5px solid #1ac36e;
+                color: #ffffff;
+                background-color: #1ac36e;
+            }
+            
+            .check-current {
+                border: 5px solid #ffc13c;
+            }
+            
+            .checked-current {
+                border: 5px solid #ffc13c;
+                color: #ffffff;
+                background-color: #1ac36e;
+            }
+        }
+    }
+    .first-question::-webkit-scrollbar {
+        display: none; /* Chrome Safari */
+    }
+    .second-question {
+        position: absolute;
+        width: 377px;
+        height: 187px;
+        margin-top: 307px;
+        border: solid 1px #dff1e4;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 10px;
+
+        .second-number-text {
+            margin: 3% 4%;
+            color: #495561;
+            font-size: 24px;
+            cursor: default;
+        }
+        
+        .second-number-grade {
+            position: absolute;
+            color: #495561;
+            font-size: 24px;
+            left: 53%;
+            top: 12px;
+            cursor: default;
+        }
+        
+        .second-list {
+            position: relative;
+            margin-left: 28px;
+
+            .second-figures {
+                float: left;
+                width: 75px;
+                height: 54px;
+                margin-bottom: 13px;
+                margin-right: 6px;
+                color: #1ac36e;
+                font-size: 30px;
+                text-align: center;
+                line-height: 54px;
+                background-color: #dff1e4;
+            }
+        }
+    }
+
+    .third-question {
+        position: absolute;
+        width: 377px;
+        height: 152px;
+        margin-top: 510px;
+        border: solid 1px #dff1e4;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 10px;
+
+        .third-number-text {
+            margin: 3% 4%;
+            color: #495561;
+            font-size: 24px;
+            cursor: default;
+        }
+        
+        .third-number-grade {
+            position: absolute;
+            color: #495561;
+            font-size: 24px;
+            left: 53%;
+            top: 12px;
+            cursor: default;
+        }
+        
+        .third-list {
+            position: relative;
+            margin-left: 28px;
+
+            .third-figures {
+                float: left;
+                width: 75px;
+                height: 54px;
+                margin-bottom: 13px;
+                margin-right: 6px;
+                color: #1ac36e;
+                font-size: 30px;
+                text-align: center;
+                line-height: 54px;
+                background-color: #dff1e4;
+            }
+        }
+    }
+}

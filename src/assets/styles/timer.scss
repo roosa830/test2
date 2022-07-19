@@ -1,0 +1,22 @@
+.timing {
+    position: relative;
+    display: flex;
+    top: 3%;
+    left: 6%;
+
+    .Clock {
+        width: 40px;
+        height: 40px;
+    }
+
+    .data {
+        margin-left: 10px;
+        margin-top: 3px;
+        color: #ff812d;
+        font-size: 37px;
+        line-height: 32px;
+    }
+}
+
+
+

@@ -1,0 +1,41 @@
+.userInformation {
+    position: relative;
+    width: 377px;
+	height: 151px;
+    border: solid 1px #dff1e4;
+    background: url(../assets//img/user.jpg) no-repeat;
+    left: 6%;
+	background-color: #ffffff;
+	background-size: 94px 94px;
+	background-position-x: 10%;
+	background-position-y: 50%;
+    border-radius: 10px;
+
+    .UserTest {
+        position: absolute;
+        color: #495561;
+        font-size: 24px;
+        left: 40%;
+        top: 25%;
+        cursor: default;
+
+        .cla {
+            margin-top: 10px;
+        }
+    }
+}
+
+.testInformation {
+	position: relative;
+    width: 377px;
+	height: 60px;
+	background: url(../assets//img/test-type.jpg) no-repeat;
+	background-color: #d1e0f6;
+	font-size: 24px;
+    text-align: center;
+	line-height: 60px;
+    left: 6%;
+	top: 1.5%;
+    border-radius: 10px;
+	cursor: default;
+}
